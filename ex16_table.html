@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- ex16_table.html -->
+	
+	<!--  
+		
+		표, Table
+		
+		1. <table>
+			- 큰상자
+			- 전체 컨테이너
+		
+		2. <tr>
+			- 중간상자
+			- table row
+			- 행 역할
+		
+		3. <td>
+			- 작은 상자
+			- table data
+			- 셀 역할
+			- 데이터를 저장하는 역할
+
+		4. <th>
+			- 작은 상자
+			- table header
+			- 제목용으로 사용			
+		
+	-->
+	<!--  
+		
+		테이블 행
+		1. 헤더 행(머릿말)
+		2. 데이터 행
+	
+	-->
+	
+	<h1>주소록</h1>
+	<!--테이블에서 보편적으로 높이(height)는 지정하지 않고 자동 계산하게 함 -->
+	<table border width="600">
+		<!-- 
+		<tr bgcolor="#DDDDDD">
+			<td align="center"><b>번호</b></td>
+			<td align="center"><b>이름</b></td>
+			<td align="center"><b>나이</b></td>
+			<td align="center"><b>성별</b></td>
+			<td align="center"><b>주소</b></td>
+		</tr> 
+		-->
+		<tr bgcolor="#DDDDDD">
+			<th width="60">번호</th>
+			<th width="80">이름</th>
+			<th width="60">나이</th>
+			<th width="70">성별</th>
+			<th width="330">주소</th>
+		</tr>
+		<tr>
+			<td align="center">1</td>
+			<td align="center">홍길동</td>
+			<td align="center">20</td>
+			<td align="center">남자</td>
+			<td>서울시 강남구 역삼동</td>
+		</tr>
+		<tr>
+			<td align="center" rowspan="2">1</td>
+			<td align="center">홍길동</td>
+			<td align="center">20</td>
+			<td align="center">남자</td>
+			<td>서울시 강남구 역삼동</td>
+		</tr>
+		<tr>
+			<td align="center">홍길동</td>
+			<td align="center">20</td>
+			<td align="center">남자</td>
+			<td>서울시 강남구 역삼동</td>
+		</tr>
+		<tr>
+			<td>비고</td>
+			<td colspan="4">어쩌구 저쩌구</td>
+		</tr>
+	</table>
+	
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
